@@ -1,0 +1,162 @@
+@import url(autocomplete.css);
+@import url(menubar.css);
+@import url(general.css);
+@import url(popupbox.css);
+@import url(register.css);
+@import url(receipt.css);
+@import url(reports.css);
+@import url(tables.css);
+@import url(thickbox.css);
+@import url(datepicker.css);
+@import url(editsale.css);
+@import url(login.css);
+
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#f7f7f7;
+}
+
+a.none
+{
+	text-decoration:none;
+}
+
+
+#content_area_wrapper
+{
+	position:relative;
+	width:100%;
+	background-color:#FFFFFF;		
+	text-align:center;	
+}
+
+#content_area
+{
+	position:relative;
+	margin:0 auto;
+    padding: 0 10px;
+	width:98%;
+	text-align:left;    
+    min-height: 500px;
+}
+
+#title_bar
+{
+	position:relative;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+	height:50px;
+}
+
+#page_title
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page_subtitle
+{
+	margin-top:8px;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+}
+
+#new_button
+{
+	position:absolute;	
+	right:0px;
+}
+
+#new_button button
+{
+    margin-left: 5px;
+}
+
+th, td { height: 30px; vertical-align: middle;}
+
+#spinner
+{
+	position:absolute;
+	display:none;
+	right:21%;
+	top:5px;
+}
+
+#feedback_bar
+{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:55px;	
+	position:fixed;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index:1;
+	line-height:3.3;
+}
+
+#home_module_list
+{
+	position: relative;
+}
+
+.module_item
+{
+	padding: 10px;
+}
+
+#config_wrapper
+{
+	text-align:center;
+}
+
+#config_info
+{
+	width:70%;
+	margin:0 auto;
+	padding:10px;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align:left;
+}
+
+#footer
+{	
+    bottom: 0px;
+	text-align:center;
+	font-size:12px;
+	color:#888;
+	clear:both;
+    width: 100%;
+}
+
+.round{
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    background-image: -moz-linear-gradient(top, #67A9E0, #4377A3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#67A9E0), to(#4377A3));
+    background-image: -webkit-linear-gradient(top, #67A9E0, #4377A3);
+    background-image: -o-linear-gradient(top, #67A9E0, #4377A3);
+    background-image: linear-gradient(to bottom, #67A9E0, #4377A3);
+    background-repeat: repeat-x;
+}
+
+.shortcut{
+    font-size: 70%;
+    margin: 20px 0 -10px 2px;
+}

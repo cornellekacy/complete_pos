@@ -1,0 +1,112 @@
+body
+{
+	background-color:#fff;
+	font-size:80%;	
+    text-align: left;
+}
+
+#menubar,#footer
+{
+	display:none;
+}
+
+#content_area
+{
+	width:90%;
+}
+
+#content_area_wrapper
+{
+	border:0px;    
+}
+
+#sale_return_policy
+{
+	width:100%;
+	text-align:center;
+}
+
+.long_name
+{
+	display:none;
+}
+
+.short_name
+{
+	display:inline;
+}
+
+.navbar{
+    display:none;
+}
+
+/* ----------------------------- */
+
+#receipt_wrapper
+{
+	font-family:Arial;
+	width:100%;
+    float: left;	
+}
+
+#receipt_header
+{
+	text-align:center;
+}
+
+#company_name
+{
+	font-size:150%;
+	font-weight:bold;
+}
+
+#company_phone
+{
+	margin-bottom:15px;
+
+}
+
+#sale_time
+{
+	margin-bottom:5px;
+}
+
+#receipt_items
+{
+	position:relative;		
+	width:100%;
+}
+
+#receipt_items th
+{
+    text-align: center;
+}
+#receipt_items th, #receipt_items tr, #receipt_items tr td
+{
+	position:relative;
+	padding:3px;    
+}
+
+.short_name
+{
+	display:none;
+}
+
+#sale_return_policy
+{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#barcode
+{	
+    width: 100px;
+    height: 20px;    
+}
+
+.print-hide
+{
+    display: none;
+    visibility: hidden;
+}

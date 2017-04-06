@@ -1,0 +1,171 @@
+#register_wrapper
+{
+	background: #eee;
+    float:left;
+    padding: 5px;
+	width:70%;
+	font-family:Arial;
+	font-size:13px;    
+}
+#mode_form
+{
+	position:relative;
+	padding: 5px;
+    background: #fff;
+}
+
+#show_suspended_sales_button
+{
+	position:absolute;
+	top:3px;
+	right:4px;	
+}
+
+#mode_form span
+{
+	font-weight:bold;
+}
+
+#search_item_form
+{
+	position:relative;
+	background-color:#fff;
+	padding: 5px;	
+}
+
+#new_item_button_register
+{
+	position:absolute;
+	top:3px;
+	right:4px;
+}
+
+#add_item_form input
+{
+ 	border: 1px solid #ccc;
+ 	padding: 2px;
+ 	
+}
+
+.item_label,#customer_label
+{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#add_item_form label
+{
+	margin: 0px 5px 0px 5px;
+}
+
+#register-header
+{
+    margin-bottom: 10px;
+}
+
+#register
+{
+	position:relative;
+	width:100%;
+    margin-top: 50px;
+}
+
+#register th
+{	
+}
+
+#register td
+{
+	padding:3px;
+	text-align:center;
+}
+
+#overall_sale
+{
+	float:right;
+	width:26%;
+	font-family:Arial;
+	font-size:13px;	
+}
+
+#overall_sale #inner{
+    background-color: #eee;
+    padding: 5px;
+    min-height: 500px;
+}
+#sale_details
+{
+	position:relative;
+	width:100%;
+	margin-top:5px;
+	border-top:2px solid #000;    
+}
+
+#finish_sale
+{
+	position:relative;
+}
+
+#Payment_Types
+{
+	width:100%;
+	margin-top:5px;
+	border-top:2px solid #000;
+	background-color:#efefef;
+	margin-bottom:0px;
+	clear:both;
+}
+
+#Cancel_sale
+{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	clear:both;
+}
+#suspended_sales_table th
+{
+	text-align:center;
+}
+
+#suspended_sales_table td
+{
+	padding: 7px;
+}
+
+#credit_card_form fieldset 
+{
+	overflow: auto;
+	border: 0;
+	margin: 0;
+	padding: 0; 
+}
+
+#credit_card_form fieldset div 
+{
+	float: left; 
+}
+
+#credit_card_form fieldset.centered div 
+{
+	text-align: center; 
+}
+
+#credit_card_form label 
+{
+	display: block;
+	margin-bottom: 5px; 
+}
+
+#credit_card_form input.text 
+{
+	border: 1px solid #bfbab4;
+	margin: 0 4px 8px 0;
+}
+
+.radius-5px
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
